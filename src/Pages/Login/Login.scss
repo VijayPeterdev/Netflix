@@ -1,0 +1,79 @@
+.login__container {
+background-color: black;
+  color: white;
+  position: relative;
+
+  .login__banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+  }
+
+  .login__holder {
+    margin-bottom: 2rem;
+    padding: 40px;
+    width: 33%;
+    background-color: rgba(0, 0, 0, 0.817);
+    position: absolute;
+    top: 15%;
+    margin: 0px 33%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+
+    .signin__btn {
+    border-radius: 5px;
+
+        margin-top: 1rem;
+      padding: 10px;
+      background-color: red;
+      color: white;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+
+   .login__row{
+    font-size: 12px;
+    color: gray;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .newflix__holder{
+  
+    gap: 1rem;
+    flex-direction: column;
+    font-size: 12px;
+    display: flex;
+    margin-top: 2rem;
+   }
+
+  }
+  .signin {
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .input__holder {
+    border-radius: 5px;
+    background-color: rgb(46, 45, 45);
+    padding: 10px;
+    
+    outline: none;
+    display: flex;
+
+    border: none;
+    color: white;
+
+    &::placeholder {
+      color: gray;
+      background-color: rgb(46, 45, 45);
+
+    }
+  }
+}

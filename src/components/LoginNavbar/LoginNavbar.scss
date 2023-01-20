@@ -1,0 +1,67 @@
+.LoginNavbar__container {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: transparent;
+  z-index: 1000;
+  height: 4rem;
+  padding: 0px 1rem;
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: center;
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .logoname {
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+
+    
+    }
+    .logo {
+      width: 130px;
+      background-color: transparent;
+
+      cursor: pointer;
+    }
+  }
+
+  .left {
+    gap: 1rem;
+    display: flex;
+    .langbtn {
+      display: flex;
+      width: 130px;
+      cursor: pointer;
+
+      height: 30px;
+      border-radius: 6px;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      //   background-color: rgba(0, 0, 0, 0.76);
+      color: white;
+      background-color: transparent;
+      border: 0.5px solid white;
+    }
+
+    .signinbtn {
+      outline: none;
+      border: none;
+      display: flex;
+      width: 130px;
+      height: 30px;
+      cursor: pointer;
+      border-radius: 6px;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      color: white;
+      background-color: red;
+    }
+  }
+}
